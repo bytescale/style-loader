@@ -30,13 +30,17 @@ function apply(styleElement, options, obj) {
     css += "}";
   }
 
-  const sourceMap = obj.sourceMap;
-
-  if (sourceMap && typeof btoa !== "undefined") {
-    css += `\n/*# sourceMappingURL=data:application/json;base64,${btoa(
-      decodeURIComponent(encodeURIComponent(JSON.stringify(sourceMap)))
-    )} */`;
-  }
+  // const sourceMap = obj.sourceMap;
+  //
+  // if (sourceMap && typeof btoa !== "undefined") {
+  //   // This line appears to cause an internal server error from Vercel during builds (at least for the Shopify Vercel
+  //   // template, which deploys to Vercel Edge functions), so we simply disable source maps to allow projects that
+  //   // use "uploader" to build successfully.
+  //   css += '\n/*# sourceMappingURL=data:application/json;base64,';
+  //
+  //   css += btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  //   css += ' */';
+  // }
 
   // For old IE
   /* istanbul ignore if  */
