@@ -1,6 +1,6 @@
 {
-  "name": "@upload-io/style-loader",
-  "version": "3.3.1-forked-5",
+  "name": "@bytescale/style-loader",
+  "version": "3.3.1-forked.5",
   "description": "style loader module for webpack",
   "license": "MIT",
   "repository": "webpack-contrib/style-loader",
