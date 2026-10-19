@@ -1,7 +1,7 @@
 /* istanbul ignore next  */
 function styleTagTransform(css, styleElement) {
   if (styleElement === undefined) {
-    return
+    return;
   }
 
   if (styleElement.styleSheet) {

@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`loader should inject hmr code with HotModuleReplacementPlugin when the "injectType" option is "autoStyleTag": errors 1`] = `Array []`;
 

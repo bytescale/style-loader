@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`addStyle should throw error with incorrect "insert" option 1`] = `"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid."`;
 

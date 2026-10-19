@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`"insert" option should insert function added to buildDependencies when the "injectType" option is "lazySingletonStyleTag" and insert is object: DOM 1`] = `
 "<!DOCTYPE html><html><head><style>body {

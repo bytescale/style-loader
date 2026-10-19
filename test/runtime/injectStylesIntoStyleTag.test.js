@@ -201,6 +201,10 @@ describe("addStyle", () => {
       defaultOptions
     );
 
+    // This fork deliberately omits inline source maps from injected styles.
+    expect(document.documentElement.innerHTML).not.toContain(
+      "sourceMappingURL"
+    );
     expect(document.documentElement.innerHTML).toMatchSnapshot();
   });
 
